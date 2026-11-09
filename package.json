@@ -1,0 +1,22 @@
+{
+  "name": "leadflow-telegram-crm",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js lead scoring service for Telegram and Kwork freelancers.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node src/demo.js",
+    "test": "node --test",
+    "check": "node --check src/domain.js && node --check src/scoring.js && node --check src/templates.js && node --check src/server.js"
+  },
+  "keywords": [
+    "telegram",
+    "crm",
+    "lead-scoring",
+    "automation",
+    "nodejs",
+    "freelance"
+  ],
+  "author": "Kirill Sukhov",
+  "license": "MIT"
+}
